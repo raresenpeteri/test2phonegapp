@@ -1,0 +1,88 @@
+body{
+
+margin: 0;
+padding: 0;
+font-family: Verdana, sans-serif;
+background-color: green;
+}
+
+#tot{
+margin : 0 auto;
+padding: 20px 0 0 0;
+position: relative;
+background-color: #333333; 
+width: 680px;
+}
+#header {
+
+margin: 0 auto;
+width: 640px;
+height: 250px;
+background: transparent url('http://wallpapertoon.com/wp-content/uploads/2014/05/cool-colorful-desktop-hd-widescreen-free.jpg') no-repeat;
+background-size: 100% 100%;
+
+}
+.titlu_cap {
+font-family: "Times New Roman", sans-serif;
+font-size: 30px;
+color: white;
+top: 220px;
+left: 300px;
+position: relative;
+}
+
+#continut{
+background-color: #FDFDFD;
+
+}
+
+#continut p{
+text-align: justify;
+}
+
+p::first-letter {
+
+color:red;
+font-size: large;
+font-family: "Arial Black", cursive;
+
+}
+#footer { margin 0 auto;
+width: 640px;
+height: 30px;
+}
+#footer span{
+font-family: "lucida grande", sans-serif;
+font-weight: bold;
+font-size: large;
+color: white;
+padding: 10px;
+position: relative;
+}
+
+#menu{
+margin: 0 70px;
+height: 30px;
+padding: 5px 0;
+}
+#menu ul{ 
+height: 50px;
+margin: 0;
+padding: 7px;
+}
+
+#menu ul li{
+list-style: none;
+display: inline;
+}
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited {
+color: red;
+font-weight: bold;
+text-decoration: none;
+font-family: "lucida grande", sans-serif;
+padding: 10px 7px 10px 7px;
+}
+
+#menu ul li a:hover{
+background-color: green;
+}
